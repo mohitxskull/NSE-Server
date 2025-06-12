@@ -3,7 +3,7 @@ import logging
 from flask import Flask, request, jsonify
 from functools import wraps
 from dotenv import load_dotenv
-import nsepythonserver as nse
+import nsepython as nse
 
 # Load environment variables
 load_dotenv()
@@ -79,11 +79,6 @@ def get_option_chain():
         # Fetch option chain data using nsepythonserver
         try:
             option_chain_data = nse.option_chain(symbol)
-
-            if 'records' in option_chain_data and 'index' in option_chain_data['records']:
-                print(option_chain_data['records']['index'])
-            else:
-                print(option_chain_data)
 
             if not option_chain_data:
                 return jsonify({

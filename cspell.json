@@ -2,6 +2,7 @@
   "words": [
     "dotenv",
     "nsepythonserver",
-    "jsonify"
+    "jsonify",
+    "nsepython"
   ]
 }
