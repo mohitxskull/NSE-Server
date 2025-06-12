@@ -80,6 +80,11 @@ def get_option_chain():
         try:
             option_chain_data = nse.option_chain(symbol)
 
+            if 'records' in option_chain_data and 'index' in option_chain_data['records']:
+                print(option_chain_data['records']['index'])
+            else:
+                print(option_chain_data)
+
             if not option_chain_data:
                 return jsonify({
                     'error': 'No data found',

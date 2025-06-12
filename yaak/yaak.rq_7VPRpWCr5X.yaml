@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_7VPRpWCr5X
 createdAt: 2025-06-12T06:46:57.442101997
-updatedAt: 2025-06-12T08:12:57.546211693
+updatedAt: 2025-06-12T08:39:22.570330671
 workspaceId: wk_mkj38QeMdY
 folderId: null
 authentication:
@@ -15,7 +15,7 @@ headers: []
 method: GET
 name: ''
 sortPriority: -1749710817441.0
-url: https://nse-server-759527683970.asia-south1.run.app/option-chain
+url: ${[ BASE ]}/option-chain
 urlParameters:
 - enabled: true
   name: symbol
