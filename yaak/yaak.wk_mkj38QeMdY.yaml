@@ -1,0 +1,14 @@
+type: workspace
+model: workspace
+id: wk_mkj38QeMdY
+createdAt: 2025-06-12T06:46:50.134576571
+updatedAt: 2025-06-12T06:46:50.134577721
+authentication: {}
+authenticationType: null
+description: ''
+headers: []
+name: NSE API
+encryptionKeyChallenge: null
+settingValidateCertificates: true
+settingFollowRedirects: true
+settingRequestTimeout: 0
