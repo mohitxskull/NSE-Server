@@ -10,7 +10,7 @@ idna==3.10
 itsdangerous==2.2.0
 Jinja2==3.1.6
 MarkupSafe==3.0.2
-nsepythonserver==2.97
+nsepython==2.97
 numpy==2.3.0
 packaging==25.0
 pandas==2.3.0
